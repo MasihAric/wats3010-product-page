@@ -3,7 +3,6 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
 }
 
 
@@ -57,6 +56,24 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+.t1:hover{
+    transform: scale(1.2);
+    transition: transform .20s;
+    margin: 0 auto;
+    transition-duration: 1s;
+}
+.t2:hover{
+    transform: scale(1.2);
+    transition: transform .20s;
+    margin: 0 auto;
+    transition-duration: 1s;
+}
+.t3:hover{
+    transform: scale(1.2);
+    transition: transform .20s;
+    margin: 0 auto;
+    transition-duration: 1s;
+}
 
 
 /* Featurettes
@@ -87,16 +104,22 @@ a:hover,a:focus{
 	color:#26a5d3;
 }
 
-#contact{
-	background:#333333;
-	color:#f4f4f4;
-	padding-bottom:80px;
-}
-
-textarea.form-control{
+.form-control{
     height:100px;
 }
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -119,3 +142,46 @@ textarea.form-control{
     margin-top: 7rem;
   }
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
