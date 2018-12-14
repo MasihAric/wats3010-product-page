@@ -3,6 +3,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-color: lightgray;
 }
 
 
@@ -51,6 +52,7 @@ body {
 }
 .marketing h2 {
   font-weight: 400;
+  color: blue;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -89,15 +91,18 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
+h1,li{
+    color:blue;
+}
 
 p{
 	margin:0 0 25px;
 	font-size:18px;
 	line-height:1.6em;
+	color:blue;
 }
 a{
-	color:#26a5d3;
+	color:black;
 }
 a:hover,a:focus{
 	text-decoration:none;
